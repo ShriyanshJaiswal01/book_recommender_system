@@ -2,6 +2,6 @@ flask
 numpy
 pandas
 gunicorn
-nltk3
+nltk==3.9.1
 scikit-learn
 beautifulsoup4
