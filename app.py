@@ -2,6 +2,10 @@ from flask import Flask,render_template,request
 import pickle
 import requests
 import numpy as np
+import nltk
+nltk.download('punkt')
+nltk.download('stopwords')
+
 
 popular_df = pickle.load(open('popular.pkl', 'rb'))
 pt = pickle.load(open('pt.pkl', 'rb'))
